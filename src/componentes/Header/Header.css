@@ -1,9 +1,15 @@
 .nome_logo{
     font-weight: bold;
     text-decoration: none;
-    font-size: 20px;
-    margin-left: 10px;
+    font-size: 40px;
+    margin-left: 40px;
     color: #1c1c1d;
+}
+
+.nome_logo:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 
 .nav{
@@ -33,6 +39,31 @@
 }
 
 .categoria:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.input-pesquisa{
+    width: 20vw;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #1c1c1d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.botaologin{
+    color: white;
+    background-color: #1c1c1d;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.botaologin:hover{
     background-color: white;
     color: black;
 }

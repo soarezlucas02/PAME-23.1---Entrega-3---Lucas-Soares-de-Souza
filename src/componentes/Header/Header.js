@@ -33,8 +33,8 @@ function Header() {
         ></input>
 
         <div className="autenticacao">
-          <button>Login</button>
-          <button>Cadastro</button>
+          <button className="botaologin">Login</button>
+          <button className="botaologin">Cadastro</button>
         </div>
       </nav>
     </header>
