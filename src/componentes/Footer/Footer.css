@@ -1,7 +1,13 @@
 .footer{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
+    align-items: self-start;
+    justify-content: space-around; 
+}
+
+.contato{
+    text-align: center;
+}
+
+.localizacao{
+    text-align: center;
 }
