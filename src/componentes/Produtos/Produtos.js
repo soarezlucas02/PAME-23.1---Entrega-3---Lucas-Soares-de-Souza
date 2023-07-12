@@ -2,15 +2,13 @@ import './Produtos.css';
 import Produto from '../Produto/Produto';
 import { objetos } from '../Objetos/Objetos';
 
-import { objeto1, objeto2, objeto3 } from '../Objetos/Objetos';
-
 
 const Produtos = () => {
     return(
         <ul className='produtos'>
-            {objetos.map((produto)=>
+            {objetos.map((produto,key)=>
             (<li>
-                <Produto nome = {produto.nome} preco={produto.preco} foto={produto.imagemUrl}/>
+                <Produto key={key} nome = {produto.nome} preco={produto.preco} foto={produto.imagemUrl}/>
             </li>))}
         </ul>
         

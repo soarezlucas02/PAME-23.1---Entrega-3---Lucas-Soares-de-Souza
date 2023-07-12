@@ -1,14 +1,49 @@
-.footer{
+.informacoes{
     display: flex;
-    align-items: self-start;
+    align-items: center;
     justify-content: space-around; 
     background-color: rgb(213, 213, 213);
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.informacoes h3{
+    font-weight: bold;
 }
 
 .contato{
     text-align: center;
+    
 }
 
 .localizacao{
     text-align: center;
+}
+
+.direitosAutorais{
+    background-color: #1c1c1d;
+    color: white;
+    text-align: center;
+}
+
+.icone{
+    max-width:25px;
+   
+}
+
+.redesSociais{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.conteudoRedes{
+    display: flex;
+    align-items: center;
+}
+
+.frase{
+    word-wrap: break-word;
+    max-width: 40%;
+    font-style: italic;
 }

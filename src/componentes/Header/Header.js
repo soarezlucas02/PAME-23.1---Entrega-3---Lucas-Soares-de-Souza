@@ -14,8 +14,8 @@ function Header() {
         ></input>
 
         <div className="autenticacao">
-          <button className="botaologin">Login</button>
-          <button className="botaologin">Cadastro</button>
+          <a href="." className="botaologin">Login</a>
+          <a href="." className="botaologin">Cadastro</a>
         </div>
       </nav>
     </header>

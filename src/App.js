@@ -1,7 +1,7 @@
 import Header from './componentes/Header/Header'
 import Main from './componentes/Main/Main'
 import Footer from './componentes/Footer/Footer'
-import Categorias from './componentes/Categorias/Categorias'
+import Categorias from './componentes/categorias/Categorias'
 
 
 import './reset.css'
