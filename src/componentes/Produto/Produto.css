@@ -1,3 +1,14 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 202, 202);
+    max-width: 100%;
+    min-height: 85vh;
+    color: black;
+    padding-bottom: 2vh;
+}
+
 .produto{
     display: flex;
     flex-direction: column;
@@ -36,7 +47,6 @@
 }
 
 .comprar:hover{
-    font-size: 22px;
     text-decoration: underline 2px;
 }
 

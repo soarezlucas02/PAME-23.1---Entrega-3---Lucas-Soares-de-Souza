@@ -7,13 +7,14 @@
     font-weight: bold;
     text-decoration: none;
     font-size: 2em;
-    color: #1c1c1d;
+    color: white;
 }
 
 .nome_logo:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 10px;
+    text-decoration: underline 2px;
 }
 
 .nav{
@@ -34,16 +35,16 @@
     width: 40vw;
     text-align: center;
     padding: 5px 10px;
-    background-color: #1c1c1d;
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 10px;
 }
 
 .botaologin{
-    color: white;
+    color: black;
     font-size: .8em;
-    background-color: #1c1c1d;
+    background-color: white;
     border: none;
     padding: 5px 10px;
     margin: 2px;
@@ -51,8 +52,9 @@
 }
 
 .botaologin:hover{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
+    text-decoration: underline 1px;
 }
 
 @media screen and (max-width:480px) {

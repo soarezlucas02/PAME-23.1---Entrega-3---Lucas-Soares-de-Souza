@@ -8,7 +8,7 @@ function Header() {
         <input
           type="pesquisa"
           id="pesquisa"
-          class="input-pesquisa"
+          className="input-pesquisa"
           required
           placeholder="Pesquise aqui um produto"
         ></input>
