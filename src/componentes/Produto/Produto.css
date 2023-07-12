@@ -2,14 +2,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid white;
+    margin: 10px 10px;
 }
 
 .imagemProduto{
     width: 300px;
+    max-width: 100%;
+    filter: invert();
+}
+
+.imagemProduto:hover{
+    filter: invert(0%);
+    background-color: white;
+    border-radius: 100px;
 }
 
 .preco{
     font-size: 20px;
     font-weight: bold;
+}
+
+.comprar{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin:1vh 0;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.comprar:hover{
+    font-size: 22px;
+    text-decoration: underline 2px;
 }
 

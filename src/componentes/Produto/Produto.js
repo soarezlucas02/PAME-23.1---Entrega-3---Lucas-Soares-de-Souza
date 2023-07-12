@@ -2,10 +2,13 @@ import "./Produto.css";
 
 const Produto = (props) => {
   return (
+    
     <div className="produto">
-      <img src="./imagens/notebook.png" alt="imagem do Produto" className="imagemProduto" />
+      <div className="imagemProduto"><img src={props.foto}/></div>
       <p className="nome">{props.nome}</p>
       <p className="preco">R${props.preco}</p>
+
+      <a href="" className="comprar">Comprar</a>
     </div>
   );
 };

@@ -1,14 +1,19 @@
-import Header from './componentes/Header/Header';
+import Header from './componentes/Header/Header'
 import Main from './componentes/Main/Main'
-import Footer from './componentes/Footer/Footer';
+import Footer from './componentes/Footer/Footer'
+import Categorias from './componentes/Categorias/Categorias'
 
+
+import './reset.css'
 import './App.css'
+
 
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Header/>
+      <Categorias/>
       <Main></Main>
       <Footer></Footer>
     </div>

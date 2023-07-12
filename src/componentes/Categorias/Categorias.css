@@ -1,0 +1,26 @@
+.categorias{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c1c1d;
+    height: 10vh;
+    border: 1px solid black;
+    font-size: 2.7vh;
+    flex-wrap: wrap;
+    
+}
+.categoria{
+    text-decoration: none;
+    background-color: #1c1c1d;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.categoria:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}

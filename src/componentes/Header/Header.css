@@ -1,8 +1,12 @@
+.header{
+    font-size: 5vw;
+    background-color: rgb(213, 213, 213);
+}
+
 .nome_logo{
     font-weight: bold;
     text-decoration: none;
-    font-size: 40px;
-    margin-left: 40px;
+    font-size: 2em;
     color: #1c1c1d;
 }
 
@@ -15,37 +19,19 @@
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap:5px;
-    margin-right: 5vw;
+    margin: 5px;
     max-width: 100%;
-    font-size: 1em;
+    font-size: .4em;
     
 }
 
-.categorias{
-    display: flex;
-    gap: 10px;
-    list-style: none;
-    
-}
-.categoria{
-    text-decoration: none;
-    background-color: #1c1c1d;
-    padding: 3px 6px;
-    color: white;
-    border: none;
-    border-radius: 10px;
-}
 
-.categoria:hover{
-    background-color: white;
-    color: black;
-}
 
 
 .input-pesquisa{
-    width: 20vw;
+    width: 40vw;
     text-align: center;
     padding: 5px 10px;
     background-color: #1c1c1d;
@@ -56,6 +42,7 @@
 
 .botaologin{
     color: white;
+    font-size: .8em;
     background-color: #1c1c1d;
     border: none;
     padding: 5px 10px;
@@ -66,4 +53,13 @@
 .botaologin:hover{
     background-color: white;
     color: black;
+}
+
+@media screen and (max-width:480px) {
+    .header{
+        font-size: 8vw;
+        padding:20px 0;
+    }
+
+
 }
