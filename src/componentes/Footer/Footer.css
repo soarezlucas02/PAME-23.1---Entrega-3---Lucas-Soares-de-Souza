@@ -5,6 +5,7 @@
     background-color: rgb(213, 213, 213);
     padding: 50px;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .informacoes h3{
