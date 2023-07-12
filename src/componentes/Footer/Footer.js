@@ -25,9 +25,9 @@ function Footer() {
                 </div>
 
                 <div className='redesSociais'>
-                    <a className='conteudoRedes' href='.'><img alt='Icone Facebook' className='icone' src={IconeFacebook}/>TendTudoFacebook</a>
-                    <a className='conteudoRedes' href='.'><img alt='Icone Instagram' className='icone' src={IconeInstagram}/>TendTudoInstagram</a>
-                    <a className='conteudoRedes' href='.'><img alt='Icone Twitter' className='icone' src={IconeTwitter}/>TendTudoTwitter</a>
+                    <a className='conteudoRedes' href='.'><img alt='Icone Facebook' className='icone' src={IconeFacebook}/>TendTudoNoFacebook</a>
+                    <a className='conteudoRedes' href='.'><img alt='Icone Instagram' className='icone' src={IconeInstagram}/>TendTudoNoInstagram</a>
+                    <a className='conteudoRedes' href='.'><img alt='Icone Twitter' className='icone' src={IconeTwitter}/>TendTudoNoTwitter</a>
                 </div>
 
                 <p className='frase'>"Desde 1997, nossa loja de varejo é o destino perfeito para encontrar qualidade, estilo e atendimento excepcional. Mais do que uma tradição, somos uma referência!"</p>

@@ -2,20 +2,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid white;
+    border: 1px solid black;
     margin: 10px 10px;
 }
 
 .imagemProduto{
     width: 300px;
     max-width: 100%;
-    filter: invert();
+    
 }
 
 .imagemProduto:hover{
-    filter: invert(0%);
-    background-color: white;
-    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 25%;
+
 }
 
 .preco{
@@ -23,9 +23,11 @@
     font-weight: bold;
 }
 
+
+
 .comprar{
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     font-size: 20px;
     font-weight: bold;
     margin:1vh 0;

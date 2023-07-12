@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around; 
-    background-color: rgb(213, 213, 213);
+    background-color: #722F37;
     padding: 50px;
     flex-wrap: wrap;
     gap: 10px;
+    color: white;
 }
 
 .informacoes h3{
@@ -29,6 +30,7 @@
 
 .icone{
     max-width:25px;
+    filter: invert();
    
 }
 

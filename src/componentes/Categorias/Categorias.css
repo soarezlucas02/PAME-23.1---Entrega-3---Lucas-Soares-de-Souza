@@ -3,16 +3,17 @@
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    background-color: #1c1c1d;
+    background-color: #722F37;
     height: 10vh;
     border: 1px solid black;
     font-size: 2.7vh;
     flex-wrap: wrap;
+    box-sizing: border-box;
     
 }
 .categoria{
     text-decoration: none;
-    background-color: #1c1c1d;
+    background-color: #722F37;
     padding: 5px;
     color: white;
     border: none;
