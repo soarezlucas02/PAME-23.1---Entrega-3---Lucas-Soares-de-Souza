@@ -1,12 +1,14 @@
 import "./Header.css";
 
-function Header() {
+function Header({setBusca, busca}) {
+  console.log(busca);
   return (
     <header className="header">
       <nav className="nav">
         <h1 className="nome_logo">TendTudo</h1>
-        <input
-          type="pesquisa"
+        <input onChange={(event) => setBusca(event.target.value)}
+          value={busca}
+          type="text"
           id="pesquisa"
           className="input-pesquisa"
           required

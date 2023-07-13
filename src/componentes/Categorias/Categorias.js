@@ -1,6 +1,6 @@
 import "./Categorias.css";
 
-const Categorias = ({ categoriaSelecionada, setCategoriaSelecionada }) => {
+const Categorias = ({setCategoriaSelecionada }) => {
   const clickCategoria = (event) => {
     event.preventDefault();
     const categoria = event.target.classList[1];
@@ -12,7 +12,6 @@ const Categorias = ({ categoriaSelecionada, setCategoriaSelecionada }) => {
     <ul className="categorias">
       <li>
         <a onClick={clickCategoria} className="categoria Roupas" href=".">
-          {console.log(categoriaSelecionada)}
           Roupas
         </a>
       </li>
